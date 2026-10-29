@@ -1,0 +1,10 @@
+<!-- @dsCard group="Forms" height=300 -->
+<div style="padding:16px;background:var(--page)">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:560px">
+  <div><label class="form-label" for="ff-room">Nomor Kamar</label><input id="ff-room" class="form-input" value="A-204"><p class="form-hint">Huruf blok, tanda hubung, nomor.</p></div>
+  <div><label class="form-label" for="ff-type">Tipe Kamar</label><select id="ff-type" class="form-input"><option>Standar</option><option>VIP</option></select></div>
+  <div><label class="form-label" for="ff-price">Harga / Bulan</label><input id="ff-price" class="form-input is-invalid" placeholder="1250000"><p class="form-error">Harga wajib diisi.</p></div>
+  <div><label class="form-label" for="ff-focus">Nama Penyewa</label><input id="ff-focus" class="form-input" style="border-color:var(--sky);box-shadow:var(--shadow-focus)" value="Budi Santoso"></div>
+  <div style="grid-column:1/-1"><label class="form-label" for="ff-notes">Catatan</label><textarea id="ff-notes" class="form-input" placeholder="Fasilitas tambahan, kondisi kamar…"></textarea></div>
+</div>
+</div>
